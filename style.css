@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+table {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
