@@ -21,6 +21,9 @@ $.getJSON("data.json", function(data) {
   $("<tbody/>", {html: items.join("")}).appendTo("table");
 });
 
+$(document).ready( function(){
+  $("tbody").attr("id", "myTable");
+})
 
 $(document).ready(function(){
   $("#myInput").on("keyup", function() {
